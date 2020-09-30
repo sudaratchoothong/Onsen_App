@@ -1,0 +1,66 @@
+<ons-page id="search">
+    <div>
+  
+      <input type="search" value="" placeholder="name of movie" class="search-input search-input--material" style="width: 100% ">
+  
+        <ons-list>
+  
+            <ons-list-item style="grid-auto-rows: max-content;">
+  
+                <ons-row>
+                    <ons-col width="80px" style="margin-bottom: 10px;"><img src="photo/Dolittle1.jpg" style="width:100%; height: 100%;"></ons-col>
+                    <ons-col style="margin-left: 10px;">   
+                      <h2 style="margin-top: 8px;margin-bottom: 8px;">The Voyage of Doctor Dolittle</h2>
+                      <p style="margin-top: 8px;margin-bottom: 8px;">หลังจากสูญเสียภรรยาเมื่อ 7 ปีก่อน ด็อกเตอร์ จอห์น ดูลิตเติ้ล (โรเบิร์ต ดาวนีย์ จูเนียร์) ผู้มีความแปลกไม่เหมือนใคร และสร้างชื่อเสียงเป็นหมอและสัตว์แพทย์ของสมเด็จพระราชินีวิคตอเรียแห่งอังกฤษ เขาใช้ชีวิตอย่างสันโดษอยู่หลังกำแพงสูง ซึ่งเป็นที่ตั้งของคฤหาสน์ดูลิตเติ้ลกับสวนสัตว์ที่มีสัตว์หายาก แต่เมื่อพระราชินี (เจสซี่ บัคลีย์) มีพระอาการประชวรอย่างสาหัส ดูลิตเติ้ลจึงต้องออกเดินทางผจญภัยไปยังเกาะในตำนาน เพื่อหาวิธีรักษา พร้อมทั้งรื้อฟื้นสติปัญญาและความกล้าหาญ ต้องต่อสู้กับศัตรูและค้นพบสิ่งมีชีวิตมหัศจรรย์ คุณหมอออกเดินทางไปกับ นักเดินทางวัยเยาว์ (แฮร์รี่ คอลเล็ตต์) และเหล่าเพื่อนที่เป็นสัตว์ดุร้าย อาทิ ลิงกอริลลาผู้มีความกังวล (รามี่ มาเลค), เป็ดสมองนก ผู้กระตือรือล้น (ออคทาเวีย สเปนเซอร์), นกกระจอกเทศจอมถากถาง (คูมาล นานจิเอนี) หมีขั้วโลกที่มองโลกในแง่ดี (จอห์น ซีนา) และ นกแก้วหัวแข็ง (เอ็มม่า ธอมป์สัน) ซึ่งทำหน้าที่เป็นที่ปรึกษาและเป็นสัตว์ที่ดูลิตเติ้ลที่ไว้วางใจ และเชื่อถือมากที่สุด</p>
+  
+                      <ons-col class="stars">
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: gray" icon="fa-star"></ons-icon>
+                      </ons-col>
+  
+                    </ons-col>
+                  </ons-row>
+  
+                  <ons-row>
+                    <ons-col width="80px" style="margin-bottom: 10px;"><img src="photo/sonic2.jpg" style="width:100%; height: 100%;"></ons-col>
+                    <ons-col style="margin-left: 10px;">   
+                      <h2 style="margin-top: 8px;margin-bottom: 8px;">Sonic the Hedgehog</h2>
+                      <p style="margin-top: 8px;margin-bottom: 8px;">เรื่องราวของเม่นที่ว่องไวที่สุดในโลก เมื่อเขามาเยือนบ้านใหม่บนโลก ในภาพยนตร์ตลกแอ็คชั่นที่ใช้คนแสดง โซนิคและเพื่อนรักคนใหม่ของเขาอย่าง ทอม (เจมส์ มาร์สเดน) ต้องร่วมมือกันเพื่อปกป้องโลกให้พ้นจากอัจฉริยะผู้ชั่วร้าย ดร.โรบ็อทนิก (จิม แคร์รี่) และแผนการที่หวังจะครองโลกของเขา</p>
+  
+                      <ons-col class="stars">
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: gray" icon="fa-star"></ons-icon>
+                      </ons-col>
+  
+                    </ons-col>
+                  </ons-row>
+  
+                  <ons-row>
+                    <ons-col width="80px" style="margin-bottom: 10px;"><img src="photo/mulan3.jpg" style="width:100%; height: 100%;"></ons-col>
+                    <ons-col style="margin-left: 10px;">   
+                      <h2 style="margin-top: 8px;margin-bottom: 8px;">Mulan</h2>
+                      <p style="margin-top: 8px;margin-bottom: 8px;">มู่หลาน (Mulan) เป็นตัวละครที่มีแรงบันดาลใจจากการนำเรื่องราวที่มีอยู่จริงในประวัติศาสตร์จีนของวีรสตรีผู้ยิ่งใหญ่ "ฮัว มู่หลาน" จากบทกวีจีน 
+                        "The Legend of Hua Mulan"(花木蘭傳奇) นำมาถ่ายทอดเป็นภาพยนตร์การ์ตูนเรื่อง มู่หลาน (Mulan) และเธอยังเป็น ดิสนี่ย์ ปริ้นเซส องค์เดียวที่ไม่ได้มีสายเลือดจากราชวงศ์หรือจากการแต่งงาน โดยทางวอลท์ดิสนีย์ได้เพิ่มบทบาทความเป็นการ์ตูนมากยิ่งขึ้น โดยสร้างตัวละครสมมติขึ้นเป็นมังกรประจำตระกูลของบ้านฮัวที่มีชื่อว่า "มูซู" ซึ่งเป็นตัวละครที่คอยสร้างเสียงหัวเราะจากผู้ตนและตัวมู่หลานได้</p>
+  
+                      <ons-col class="stars">
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: red" icon="fa-star"></ons-icon>
+                        <ons-icon style="color: gray" icon="fa-star"></ons-icon>
+                      </ons-col>
+                      
+                    </ons-col>
+                  </ons-row>
+  
+            </ons-list-item>
+  
+        </ons-list>
+    </div>
+  </ons-page>

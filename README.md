@@ -4,9 +4,9 @@
 https://drive.google.com/drive/u/1/folders/1LGHE50hxCqp2zzCohu1ME6SSrIPqagPO?fbclid=IwAR1BYzMUTZ1P7E5SVDBUbPcsQZ7sZXUS5Ug0rdixa0H4FfIhAi2K52n60LI
 
 
-ชื่อโปรแจคในgithup
+ชื่อโปรเจ็คในgithup
 Onsen_App
-ชื่อโปรใน Firebase
+ชื่อโปรเจ็คใน Firebase
 meowflix
 
 ลิงค์ออกแบบบแอพ *meowflix

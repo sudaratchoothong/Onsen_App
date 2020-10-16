@@ -1,0 +1,38 @@
+.toolbar {
+   
+    color: white;
+    text-align: left;
+    font-size: 200px;
+    padding-left: 10px;
+    padding: 5px;
+    width: content;
+    height: 50px;
+    font-family: 'Comfortaa', cursive;
+    background: rgb(248, 246, 246); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgb(194, 0, 152) , #F08080); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,rgb(194, 0, 152) ,#F08080); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(194, 0, 152) , #F08080); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,rgb(194, 0, 152) , #F08080); /* Standard syntax */
+}
+
+.tabbar{
+    background: -webkit-linear-gradient(left, rgb(194, 0, 152) , #F08080); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,rgb(194, 0, 152) ,#F08080); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(194, 0, 152) , #F08080); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,rgb(194, 0, 152) , #F08080); /* Standard syntax */
+}
+.trailer ons-icon {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    color: #666;
+    background: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    opacity: 0.7;
+   
+  }

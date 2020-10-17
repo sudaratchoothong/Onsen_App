@@ -1,0 +1,157 @@
+<ons-page>
+    <ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+    <template id="page1.html">
+        <ons-page>
+            <ons-splitter>
+                <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
+                    <ons-page>
+                        <ons-list id="splitter">
+                            <ons-list-item onclick="fn.load('movie.html')" class="Kanit" tappable>
+                                <div class="menucategory">
+                                    Movie
+                                </div>
+                            </ons-list-item>
+                            <ons-list-item onclick="fn.load('action.html')" class="Kanit" tappable>
+                                <div class="menucategory">
+                                    Action
+                                </div>
+                            </ons-list-item>
+                            <ons-list-item onclick="fn.load('fantasy.html')" class="Kanit" tappable>
+                                <div class="menucategory">
+                                    Fantasy
+                                </div>
+                            </ons-list-item>
+                            <ons-list-item onclick="fn.load('sci-fi.html')" class="Kanit" tappable>
+                                <div class="menucategory">
+                                    Sci-Fi
+                                </div>
+                            </ons-list-item>
+                            <ons-list-item onclick="fn.load('thriller.html')" class="Kanit" tappable>
+                                <div class="menucategory">
+                                    Thriller
+                                </div>
+                            </ons-list-item>
+                        </ons-list>
+                    </ons-page>
+                </ons-splitter-side>
+                <ons-splitter-content id="content" page="movie.html"></ons-splitter-content>
+            </ons-splitter>
+
+            <template id="movie.html">
+                <ons-page id="movie">
+                    <ons-toolbar>
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <ons-icon icon="md-menu"></ons-icon>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            MOVIE
+                        </div>
+                        <div class="right">
+
+                        </div>
+                    </ons-toolbar>
+                    <div style="margin: 15px">
+                        <ons-carousel item-width="100%" swipeable auto-scroll overscrollable id="carousel">
+                        </ons-carousel>
+                    </div>
+                    <div class="Kanit title" style="margin: 15px">
+                        แนะนำสำหรับคุณ
+                    </div>
+                    <ons-row id="recomendmovie">
+                    </ons-row>
+                    <div class="Kanit title" style="margin: 15px">
+                        MOVIE
+                    </div>
+                    <ons-row id="allmovie">
+                    </ons-row>
+                </ons-page>
+            </template>
+
+            <template id="action.html">
+                <ons-page id="action">
+                    <ons-toolbar>
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <ons-icon icon="md-menu"></ons-icon>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            ACTION
+                        </div>
+                        <div class="right">
+
+                        </div>
+                    </ons-toolbar>
+                    <div class="" id="movaction">
+
+                    </div>
+                </ons-page>
+            </template>
+
+            <template id="fantasy.html">
+                <ons-page id="fantasy">
+                    <ons-toolbar>
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <ons-icon icon="md-menu"></ons-icon>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            FANTASY
+                        </div>
+                        <div class="right">
+
+                        </div>
+                    </ons-toolbar>
+                    <div class="" id="movfan">
+
+                    </div>
+                </ons-page>
+            </template>
+
+            <template id="sci-fi.html">
+                <ons-page id="sci-fi">
+                    <ons-toolbar>
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <ons-icon icon="md-menu"></ons-icon>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            SCI-FI
+                        </div>
+                        <div class="right">
+
+                        </div>
+                    </ons-toolbar>
+                    <div class="" id="movsci">
+
+                    </div>
+                </ons-page>
+            </template>
+
+            <template id="thriller.html">
+                <ons-page id="thriller">
+                    <ons-toolbar>
+                        <div class="left">
+                            <ons-toolbar-button onclick="fn.open()">
+                                <ons-icon icon="md-menu"></ons-icon>
+                            </ons-toolbar-button>
+                        </div>
+                        <div class="center">
+                            THRILLER
+                        </div>
+                        <div class="right">
+
+                        </div>
+                    </ons-toolbar>
+                    <div class="" id="movthr">
+
+                    </div>
+                </ons-page>
+            </template>
+        </ons-page>
+    </template>
+</ons-page>

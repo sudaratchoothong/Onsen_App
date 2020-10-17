@@ -1,0 +1,23 @@
+.Comfortaa{
+    font-family: 'Comfortaa', sans-serif
+}
+.Kanit{
+    font-family: 'Kanit', sans-serif
+}
+
+.popular{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.rating{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.titleSearch{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 19px;
+}
